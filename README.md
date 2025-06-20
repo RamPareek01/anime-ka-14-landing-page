@@ -3,7 +3,7 @@
 Welcome to the official landing page for the **Anime Ka 14** YouTube channel!  
 This simple, clean, and responsive webpage showcases popular playlists, top anime series, and links to social platforms.
 
-![Anime Ka 14 Preview](https://ik.imagekit.io/csbmybhpmx/boruto.png)
+![Anime Ka 14 Preview](https://ik.imagekit.io/csbmybhpmx/1.png)
 
 ## 🔗 Live Preview
 [Click here to view the live site](https://rampareek01.github.io/anime-ka-14-landing-page/)
