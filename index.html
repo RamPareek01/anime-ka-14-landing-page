@@ -1,59 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Anime Ka 14</title>
   <link rel="icon" href="https://ik.imagekit.io/csbmybhpmx/logo.png" type="image/png">
-</head>
-<body style="margin: 0; font-family: 'Poppins', sans-serif; background-color: #111; color: #fff;">
-  <img src="https://ik.imagekit.io/csbmybhpmx/1.png" alt="banner" width="1200px" style="margin-left: 150px;margin-bottom: 30px;">
+  <style>
 
-  <header>
-    
-    <div style="text-align: center;">
-      <a href="https://www.youtube.com/@anime_ka_14_official" style="color: white; text-decoration: none; margin: 0 10px; font-size: 1.2em;" target="_blank">YouTube</a>
-      <a href="https://www.instagram.com/_.anime_ka_14._?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" style="color: white; text-decoration: none; margin: 0 10px; font-size: 1.2em;" target="_blank">Instagram</a>
+
+    .playlist-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 30px;
+    }
+
+    .playlist-item {
+      flex: 1 1 250px;
+      max-width: 300px;
+      text-align: center;
+    }
+
+    .playlist-item img {
+      width: 100%;
+      height: auto;
+    }
+    @media (max-width: 600px) {
+      a {
+        display: block;
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body style=" margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to bottom, #0f0f0f, #1a1a1a);
+      color: #fff;">
+
+  <img src="https://ik.imagekit.io/csbmybhpmx/1.png" alt="Banner" style="width: 100%;
+      max-width: 1000px;height: auto;display: block;margin: 0 auto 30px auto;">
+
+  <header style="text-align: center;
+      margin: 20px 0;">
+    <div>
+      <a href="https://www.youtube.com/@anime_ka_14_official" target="_blank" style=" color: white;
+      text-decoration: none;margin: 0 10px;font-size: 1.2em;">YouTube</a>
+      <a href="https://www.instagram.com/_.anime_ka_14._" target="_blank" style=" color: white;
+      text-decoration: none;margin: 0 10px;font-size: 1.2em;">Instagram</a>
     </div>
-    <div style="text-align: center; margin: 20px;">
-      <button onclick="window.open('https://www.youtube.com/@anime_ka_14_official', '_blank')" style="padding: 10px 20px; font-size: 18px; background-color: red; color: white; border: none; border-radius: 5px; cursor: pointer;">Subscribe</button>
+    <div style="margin: 20px;">
+      <button onclick="window.open('https://www.youtube.com/@anime_ka_14_official', '_blank')" style="padding: 10px 20px;
+      font-size: 18px;background-color: red;color: white;border: none;border-radius: 5px;cursor: pointer;">Subscribe</button>
     </div>
   </header>
 
-  <section style="text-align: center; margin-top: 50px;">
+  <section style="text-align: center;margin-top: 50px;padding: 0 20px;">
     <p style="font-size: 25px; font-weight: bolder;">Most Popular Series</p>
     <a href="https://www.youtube.com/watch?v=GN4vpjFekWc&list=PL-QjKgZpmCh7Yrp2sWvml87hk_CwStwg5" target="_blank">
-      <img src="https://ik.imagekit.io/csbmybhpmx/boruto.png" alt="Boruto" width="400px">
+      <img src="https://ik.imagekit.io/csbmybhpmx/boruto.png" alt="Boruto" style="width: 100%; max-width: 400px; height: auto;">
     </a>
     <p>Boruto Complete Series</p>
   </section>
 
-  <section style="text-align: center; margin-top: 100px;">
+  <section style="text-align: center;margin-top: 50px;padding: 0 20px;">
     <p style="font-size: 25px; font-weight: bolder;">Playlists</p>
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 30px;">
-        <div>
-            <a href="https://www.youtube.com/watch?v=GN4vpjFekWc&list=PL-QjKgZpmCh7Yrp2sWvml87hk_CwStwg5" target="_blank">
-                <img src="https://ik.imagekit.io/csbmybhpmx/boruto.png" alt="Boruto" width="300px">
-            </a>
-            <p>Boruto Playlist</p>
-        </div>
-        <div>
-            <a href="https://www.youtube.com/watch?v=sp1zNJ-Lr-s&list=PL-QjKgZpmCh510uETfqxpycv42A_mRJ38" target="_blank">
-                <img src="https://ik.imagekit.io/csbmybhpmx/Erased.png" alt="Erased" width="300px">
-            </a>
-            <p>Erased Playlist</p>
-        </div>
-        <div>
-            <a href="https://www.youtube.com/watch?v=XfRsrIDdA3Y&list=PL-QjKgZpmCh4AK1r6uojidfgdDOD4C4I9" target="_blank">
-                <img src="https://ik.imagekit.io/csbmybhpmx/Onepiece.png" alt="One Piece" width="300px">
-            </a>
-            <p>One Piece Playlist</p>
-        </div>
+    <div class="playlist-container">
+      <div class="playlist-item">
+        <a href="https://www.youtube.com/watch?v=GN4vpjFekWc&list=PL-QjKgZpmCh7Yrp2sWvml87hk_CwStwg5" target="_blank">
+          <img src="https://ik.imagekit.io/csbmybhpmx/boruto.png" alt="Boruto">
+        </a>
+        <p>Boruto Playlist</p>
+      </div>
+      <div class="playlist-item">
+        <a href="https://www.youtube.com/watch?v=sp1zNJ-Lr-s&list=PL-QjKgZpmCh510uETfqxpycv42A_mRJ38" target="_blank">
+          <img src="https://ik.imagekit.io/csbmybhpmx/Erased.png" alt="Erased">
+        </a>
+        <p>Erased Playlist</p>
+      </div>
+      <div class="playlist-item">
+        <a href="https://www.youtube.com/watch?v=XfRsrIDdA3Y&list=PL-QjKgZpmCh4AK1r6uojidfgdDOD4C4I9" target="_blank">
+          <img src="https://ik.imagekit.io/csbmybhpmx/Onepiece.png" alt="One Piece">
+        </a>
+        <p>One Piece Playlist</p>
+      </div>
     </div>
-</section>
+  </section>
 
-
-  <footer style="text-align: center; padding: 20px; background-color: #000;">
+  <footer style=" text-align: center;
+      padding: 20px;
+      background-color: #000;">
     <p>&copy; 2025 Anime Ka 14. All rights reserved.</p>
   </footer>
 
